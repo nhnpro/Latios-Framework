@@ -7,7 +7,9 @@ using Unity.Entities.Graphics;
 using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Rendering;
+#if UNITY_EDITOR
 using UnityEditor.SceneManagement;
+#endif
 using UnityEngine.Rendering;
 
 namespace Latios.Kinemation.Systems
